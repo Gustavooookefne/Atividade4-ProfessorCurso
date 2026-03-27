@@ -22,4 +22,7 @@ public class Curso {
 
     @Column(name = "duração_curso", nullable = false)
     private LocalDate duracaoCurso;
+
+    public Curso(String s, LocalDate localDate) {
+    }
 }
