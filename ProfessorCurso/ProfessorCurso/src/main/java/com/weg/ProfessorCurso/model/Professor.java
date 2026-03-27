@@ -23,4 +23,6 @@ public class Professor {
     @Column(name = "materia", nullable = false)
     private String materia;
 
+    public Professor(String s, String materia) {
+    }
 }
