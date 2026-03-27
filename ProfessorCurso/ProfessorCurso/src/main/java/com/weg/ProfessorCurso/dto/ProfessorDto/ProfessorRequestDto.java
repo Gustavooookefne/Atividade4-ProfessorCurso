@@ -1,4 +1,7 @@
 package com.weg.ProfessorCurso.dto.ProfessorDto;
 
-public class ProfessorRequestDto {
+public record ProfessorRequestDto (
+        String nomeProfessor,
+        String materia
+){
 }
