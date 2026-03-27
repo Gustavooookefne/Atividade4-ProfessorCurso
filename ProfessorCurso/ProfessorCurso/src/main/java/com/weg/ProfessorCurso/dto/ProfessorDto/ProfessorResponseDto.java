@@ -1,4 +1,10 @@
 package com.weg.ProfessorCurso.dto.ProfessorDto;
 
-public class ProfessorResponseDto {
+import java.util.UUID;
+
+public record ProfessorResponseDto (
+        UUID id,
+        String nomeProfessor,
+        String materia
+){
 }
