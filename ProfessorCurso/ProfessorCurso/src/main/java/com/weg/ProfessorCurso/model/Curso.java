@@ -23,6 +23,10 @@ public class Curso {
     @Column(name = "duração_curso", nullable = false)
     private LocalDate duracaoCurso;
 
+    @ManyToOne
+    @JoinColumn(name = "idProfessor")
+    private Professor professor;
+
     public Curso(String s, LocalDate localDate) {
     }
 }
