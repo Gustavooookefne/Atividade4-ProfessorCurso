@@ -1,4 +1,10 @@
 package com.weg.ProfessorCurso.dto.CursoDto;
 
-public class CursoResponseDto {
+import java.time.LocalDate;
+
+public record CursoResponseDto (
+        Long id,
+        String nomeCurso,
+        LocalDate duracaoCurso
+){
 }
